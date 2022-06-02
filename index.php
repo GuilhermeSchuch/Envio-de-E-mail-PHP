@@ -24,22 +24,22 @@
         <fieldset>
             <form action="enviarFormulario.php"method="post">
                 <div class="nome">
-                    <label for="nome">Nome:</label><br>
+                    <label for="nome">Nome:</label>
                     <input id="nome" name="nome" type="text" placeholder="Insira seu nome" required autofocus><br>
                 </div>
 
                 <div class="telefone">
-                    <label for="telefone">Telefone:</label><br>
+                    <label for="telefone">Telefone:</label>
                     <input id="telefone" name="telefone" type="tel" placeholder="Insira seu telefone" required><br>
                 </div>
 
                 <div class="email">
-                    <label for="email">Email:</label><br>
+                    <label for="email">Email:</label>
                     <input id="email" name="email" type="email" placeholder="Insira seu E-mail" required><br>
                 </div>
 
                 <div class="mensagem">
-                    <label for="assunto">Mensagem</label><br>
+                    <label for="assunto">Mensagem</label>
                     <textarea name="assunto" id="assunto" placeholder="Insira sua mensagem" required></textarea><br>
                 </div>
 
